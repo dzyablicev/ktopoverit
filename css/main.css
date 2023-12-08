@@ -535,7 +535,7 @@ p:first-child {
 
 @media (max-width: 480px) {
   .dropdown-item {
-    white-space: wrap;
+    white-space: normal;
 }
 }
 
