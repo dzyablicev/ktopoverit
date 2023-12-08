@@ -107,6 +107,21 @@ p:first-child {
     border-left: none;
   }
 }
+
+@media (min-width: 1440px) {
+.nav-link { 
+    padding-right: 2rem !important;
+    padding-left: 0rem !important;
+}
+}
+
+@media (min-width: 1200px) {
+  .header-bottom__logo {
+    min-width: 130px;
+    max-width: 130px;
+}
+}
+
 .header-top__account .dropdown-toggle::after {
   content: none;
 }
